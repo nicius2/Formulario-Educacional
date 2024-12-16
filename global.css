@@ -42,9 +42,6 @@ img {
 .flex {
     display: flex;
 }
- .flex {
-    gap: 1.25rem;
-}
 
 .flex-1 {
     flex: 1;
