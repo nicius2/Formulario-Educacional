@@ -1,0 +1,28 @@
+@import url(/fields/index.css);
+
+form {
+    margin-top: 2rem;
+}
+
+fieldset {
+    border: none;
+
+    display: grid;
+    gap: 1.5rem;
+}
+
+legend {
+    margin-bottom: 1.5rem;
+    font: 600 1rem/1.25rem var(--font-family);
+    color: #292524;
+}
+
+fieldset + fieldset {
+    margin-top: 3rem;
+}
+
+.actions-wrapper {
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+}
